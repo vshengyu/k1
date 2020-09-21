@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="场景">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="框架">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="入口">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="输入">
+      <UniqueIdentifier>{5cb02c12-3cfe-4a7d-bd4b-13552c3407c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="输出">
+      <UniqueIdentifier>{9b1c5ec0-c873-44bb-abd0-eb1d3964f462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景\场景一">
+      <UniqueIdentifier>{c8b02a39-8def-402b-b0a9-901834a8bd2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景\开始场景">
+      <UniqueIdentifier>{491ce25e-c48d-4ad2-8437-5c66f26ad4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pc">
+      <UniqueIdentifier>{d721493a-df58-47aa-8f93-79581cd42926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="动作">
+      <UniqueIdentifier>{325d8537-c53f-461a-a0a8-8b7530c22c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景\测试场景-图片锚点设置">
+      <UniqueIdentifier>{ab36026f-2d7b-4395-b18e-2ec92befbf49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="矩形">
+      <UniqueIdentifier>{e921a3fe-aa69-42fb-8046-3d3be5468808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敌人">
+      <UniqueIdentifier>{50c7c540-2e1c-409b-897f-3713fb05b6d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="矩形\障碍物">
+      <UniqueIdentifier>{9396b0ca-f373-4af6-ac5c-2c5d421e1c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景\场景二">
+      <UniqueIdentifier>{25589935-c2b6-4297-a11f-d7358356dd9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景\场景三">
+      <UniqueIdentifier>{4e02fc38-265a-41b1-aeaa-987b54e4dd43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="向量">
+      <UniqueIdentifier>{757cb4d3-37d6-4e8d-9568-e96a31594dc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene.h">
+      <Filter>场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>框架</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOutput.h">
+      <Filter>输出</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInput.h">
+      <Filter>输入</Filter>
+    </ClInclude>
+    <ClInclude Include="Start.h">
+      <Filter>场景\开始场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>pc</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>动作</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>场景\测试场景-图片锚点设置</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>矩形</Filter>
+    </ClInclude>
+    <ClInclude Include="S1.h">
+      <Filter>场景\场景一</Filter>
+    </ClInclude>
+    <ClInclude Include="Moster.h">
+      <Filter>敌人</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrier.h">
+      <Filter>矩形\障碍物</Filter>
+    </ClInclude>
+    <ClInclude Include="S2.h">
+      <Filter>场景\场景二</Filter>
+    </ClInclude>
+    <ClInclude Include="boss.h">
+      <Filter>敌人</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperBoss.h">
+      <Filter>敌人</Filter>
+    </ClInclude>
+    <ClInclude Include="S3.h">
+      <Filter>场景\场景三</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>向量</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CScene.cpp">
+      <Filter>场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>框架</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>入口</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOutput.cpp">
+      <Filter>输出</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInput.cpp">
+      <Filter>输入</Filter>
+    </ClCompile>
+    <ClCompile Include="Start.cpp">
+      <Filter>场景\开始场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>pc</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>动作</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>场景\测试场景-图片锚点设置</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>矩形</Filter>
+    </ClCompile>
+    <ClCompile Include="S1.cpp">
+      <Filter>场景\场景一</Filter>
+    </ClCompile>
+    <ClCompile Include="Moster.cpp">
+      <Filter>敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrier.cpp">
+      <Filter>矩形\障碍物</Filter>
+    </ClCompile>
+    <ClCompile Include="S2.cpp">
+      <Filter>场景\场景二</Filter>
+    </ClCompile>
+    <ClCompile Include="boss.cpp">
+      <Filter>敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperBoss.cpp">
+      <Filter>敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="S3.cpp">
+      <Filter>场景\场景三</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>向量</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

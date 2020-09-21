@@ -1,0 +1,29 @@
+﻿  Action.cpp
+G:\一学年项目\2020.1.4\Action.cpp(27,14): warning C4018: “>”: 有符号/无符号不匹配
+  Barrier.cpp
+  boss.cpp
+G:\一学年项目\2020.1.4\boss.cpp(337,32): warning C4018: “<”: 有符号/无符号不匹配
+  CScene.cpp
+  Frame.cpp
+G:\一学年项目\2020.1.4\Frame.cpp(394,75): warning C4150: 删除指向不完整“CBarrier”类型的指针；没有调用析构函数
+G:\一学年项目\2020.1.4\Moster.h(13): message : 参见“CBarrier”的声明
+  GameInput.cpp
+  GameOutput.cpp
+  Hero.cpp
+  Moster.cpp
+G:\一学年项目\2020.1.4\Moster.cpp(326,32): warning C4018: “<”: 有符号/无符号不匹配
+  Rect.cpp
+  S1.cpp
+  S2.cpp
+  S3.cpp
+  Start.cpp
+  SuperBoss.cpp
+G:\一学年项目\2020.1.4\SuperBoss.cpp(339,32): warning C4018: “<”: 有符号/无符号不匹配
+  TestScene.cpp
+  Vector.cpp
+  WinMain.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 708 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Test(练习).vcxproj -> G:\一学年项目\2020.1.4\Release\Test(练习).exe
